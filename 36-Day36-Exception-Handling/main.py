@@ -14,7 +14,6 @@ try:
     a = [6, 3]
     print(a[num])
 except ValueError:
-    print("Number entered is not an integer.")
-    
+    print("Number entered is not an integer.")  
 except IndexError:
   print("Index Error")
